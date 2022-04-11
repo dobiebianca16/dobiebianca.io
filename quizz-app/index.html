@@ -3,20 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
-
   <title>Quiz App</title>  
 
-<link href="./style.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
 <script src="./script.js" defer></script>
 </head>
 
@@ -24,21 +16,21 @@
   
 
 <body>
-    <div>
+
         <div class="quiz-container" id="quiz">
             <div class="quiz-header">
             <h2 id="question">Question text</h2>
             <ul>
-                <li><input id="a_text" type="radio" id="a" name="answer" class="answer"><label for="a"></label></li>
-                <li><input id="b_text" type="radio" id="b" name="answer" class="answer"><label for="b"></label></li>
-                <li><input id="c_text" type="radio" id="c" name="answer" class="answer"><label for="c"></label></li>
-                <li><input id="d_text" type="radio" id="d" name="answer" class="answer"><label for="d"></label></li>
+                <li><input type="radio" id="a" name="answer" class="answer"><label for="a" id="a_text"></label></li>
+                <li><input type="radio" id="b" name="answer" class="answer"><label for="b" id="b_text"></label></li>
+                <li><input type="radio" id="c" name="answer" class="answer"><label for="c" id="c_text"></label></li>
+                <li><input type="radio" id="d" name="answer" class="answer"><label for="d" id="d_text"></label></li>
             </ul>
             </div>
 
             <button id="submit">Submit</button>
         </div>
-    </div>
+
 
 </body>
 
