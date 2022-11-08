@@ -18,13 +18,24 @@
       background-attachment: fixed;
       background-size: cover;
     }
+    .cont {
+  height: 500px;
+  position: relative;
+  border: 3px solid #dbe4ed; /* Border color is optional */ 
+}
+
+ .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
     img{
-
-      display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-
+      position: absolute;
+      
+      object-position: 50% 50%;
 
     }
   </style>
@@ -82,12 +93,17 @@
           </div>
         </div>
         
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-md-6 cont">
             <div class="hero-full-wrapper">
+              <div class="center">
           <a href="#" title="" class="black-image-project-hover">
-            <img src="./assets/images/logo.png" alt="" class="img-responsive">
-           </a
-           ></div>
+            <img src="./assets/images/logo.png" alt="" >
+           </a>
+          </div>
+
+
+  
+           </div>
            </div>
 
         
