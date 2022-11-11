@@ -1,0 +1,183 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.container-fluid{
+    /* padding: 3% 15%; */
+    padding:7% 15%;
+}
+/* Sections */
+
+.colored-section{
+    background-color: #67B260;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+/* Headings */
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+/*Nav bar*/
+
+.navbar{
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .nav-link{
+    font-size: 1.3rem;
+  }
+  
+  .nav-item{
+    color: white;
+    padding: 0 18px;
+  }
+  
+/*Title section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+.phone-img{
+    width: 70%;
+
+    padding-bottom: -50%;
+   position: absolute;
+   right: 30%;
+    transform: rotate(10deg);
+}
+
+.text-title{
+padding-top: 5%;
+}
+.div-img{
+    position: relative;
+}
+/*Butoane download*/
+
+.download-button{
+    margin: 5% 3% 5% 3%;
+}
+
+/* Features */
+#features{
+    position: relative;
+    /* z-index: 1 ; */
+    /* padding: 7% 15%; */
+    /* background-color: white; */
+    color: black;
+  }
+  
+  .feature-box{
+    padding: 5%;
+  }
+  
+  .feature-box i{
+      padding-bottom: 1rem;
+      color: #82B260;
+  }
+  
+  .feature-box i:hover{
+    color: #67B260;
+  }
+  
+  .feature-box h3{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+  }
+  
+  .feature-box p{
+    color: #8F8F8F;
+    margin-top: 16px;
+  }
+
+
+
+/* Ingredients */
+#ingredients{
+    /* padding: 7% 15%; */
+    font-family: 'Montserrat', sans-serif;
+}
+.ingredients{
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+.bolder{
+    font-weight: bold;
+    padding-top: 5%;
+    font-size: 2.5rem;
+}
+.img_pizza{
+
+    margin: 20px;
+}
+
+/* Testimonials */
+
+
+.testimonial-text{
+    color: black;
+    font-weight: lighter;
+    font-size: 3rem;
+    line-height: 1.6;
+  }
+  
+  #testimonials em{
+    color: black;
+  }
+
+  .img-testimonial{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+
+
+/* Cta section */
+
+.brands-icons i{
+    margin: 10px;
+}
+.copy-right{
+    color: #8F8F8F;
+}
+
+
+/* Media */
+@media (max-width:1028px){
+    .phone-img{
+       position: static;
+       margin-bottom: 0;
+       padding-left: 5%;
+        transform: rotate(0deg);
+    }
+    .text-title{
+        padding-right: 5%;
+        position: static;
+        }
+    #title{
+        text-align: center;
+    }
+  }
