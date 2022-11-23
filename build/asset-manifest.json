@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/dobiebianca.io/static/css/main.c6bb5c0b.css",
-    "main.js": "/dobiebianca.io/static/js/main.206d3d15.js",
-    "static/js/787.67b99310.chunk.js": "/dobiebianca.io/static/js/787.67b99310.chunk.js",
-    "static/media/profil.JPG": "/dobiebianca.io/static/media/profil.d896435f2217853d6c23.JPG",
-    "static/media/gericht.png": "/dobiebianca.io/static/media/gericht.42e1fdc39a7d7e1c81f9.png",
-    "static/media/gpt3.png": "/dobiebianca.io/static/media/gpt3.c36fe6fd43794941ae24.png",
-    "static/media/pizza-app.png": "/dobiebianca.io/static/media/pizza-app.54b4f747122b4d2a4e0f.png",
-    "static/media/LaBelleAurore.woff": "/dobiebianca.io/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/LaBelleAurore.woff2": "/dobiebianca.io/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/logo-BB.png": "/dobiebianca.io/static/media/logo-BB.09b7db01c8bc163caa01.png",
-    "index.html": "/dobiebianca.io/index.html",
-    "main.c6bb5c0b.css.map": "/dobiebianca.io/static/css/main.c6bb5c0b.css.map",
-    "main.206d3d15.js.map": "/dobiebianca.io/static/js/main.206d3d15.js.map",
-    "787.67b99310.chunk.js.map": "/dobiebianca.io/static/js/787.67b99310.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.b5fccb45.css",
+    "main.js": "/portfolio/static/js/main.0ee9db15.js",
+    "static/js/787.67b99310.chunk.js": "/portfolio/static/js/787.67b99310.chunk.js",
+    "static/media/profil.JPG": "/portfolio/static/media/profil.d896435f2217853d6c23.JPG",
+    "static/media/gericht.png": "/portfolio/static/media/gericht.42e1fdc39a7d7e1c81f9.png",
+    "static/media/gpt3.png": "/portfolio/static/media/gpt3.c36fe6fd43794941ae24.png",
+    "static/media/pizza-app.png": "/portfolio/static/media/pizza-app.54b4f747122b4d2a4e0f.png",
+    "static/media/LaBelleAurore.woff": "/portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo-BB.png": "/portfolio/static/media/logo-BB.09b7db01c8bc163caa01.png",
+    "index.html": "/portfolio/index.html",
+    "main.b5fccb45.css.map": "/portfolio/static/css/main.b5fccb45.css.map",
+    "main.0ee9db15.js.map": "/portfolio/static/js/main.0ee9db15.js.map",
+    "787.67b99310.chunk.js.map": "/portfolio/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6bb5c0b.css",
-    "static/js/main.206d3d15.js"
+    "static/css/main.b5fccb45.css",
+    "static/js/main.0ee9db15.js"
   ]
 }
