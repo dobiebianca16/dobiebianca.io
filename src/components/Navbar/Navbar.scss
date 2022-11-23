@@ -1,0 +1,136 @@
+@import '../../style/mixins.scss';
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 2.5rem 4rem;
+    height: 10rem;
+
+    width: 100%;
+    backdrop-filter: blur(10px);
+    filter: none !important;
+    font-size: 1.5rem;
+    z-index: 11;
+    animation: fadeInDown 1s forwards;
+    @include respond(phone) {
+        padding: 10px;
+
+    }
+
+
+    &__left {
+        flex: 0 0 30%;
+        @include respond(phone) {
+            padding-left: 10px;
+            max-width: 50px;
+    
+        }
+    }
+
+    &__img {
+        width: 4.4rem;
+        @include respond(phone) {
+            height: 3rem;
+            width: 3rem;
+            margin-right: 0;
+    
+        }
+
+    }
+
+    &__right {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 10px;
+        @include respond(phone) {
+            justify-content: center;
+    
+        }
+
+        
+    }
+   
+
+    &__list {
+        display: flex;
+        list-style: none;
+        margin-right: 2rem;
+        color: var(--white);
+        @include respond(phone){
+            font-size: 80%;
+        }
+    }
+
+    &__items {
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+
+        &Link {
+
+            &,
+            &:link,
+            &:visited {
+                text-decoration: none;
+                color: var(--lightest-slate);
+                transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+            }
+
+            &:hover {
+                color: var(--primary);
+            }
+
+            &Active {
+                color: var(--primary);
+            }
+
+            &Numeric {
+                color: var(--primary) !important;
+                margin-right: 0.6rem;
+            }
+        }
+    }
+
+    &__button {
+
+        &,
+        &:link,
+        &:visited {
+            text-decoration: none;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+            background-color: transparent;
+            padding: 0.75rem 1.5rem;
+            font-size: 1.35rem !important;
+            border-radius: 4px;
+        }
+
+        &:hover {
+            background-color: var(--primary);
+            color: var(--background);
+        }
+
+        &Active {
+            color: var(--primary);
+        }
+        @include respond(phone){
+            display: none;
+        }
+    }
+
+   
+
+
+
+ 
+
+}
+
+
+
+  
+  
+  

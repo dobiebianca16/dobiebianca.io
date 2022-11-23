@@ -1,0 +1,139 @@
+$primary-color: #81AFDD;
+
+
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+
+
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2'),
+    url('./assets/fonts/LaBelleAurore.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html, body{
+  overflow-x: hidden;
+  max-width: 100%;
+}
+input,
+textarea {
+  font-family: 'Raleway', sans-serif;
+}
+
+.loader-hidden {
+  display: none;
+}
+
+.loader-active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+@mixin respond($breakpoint) {
+  @if $breakpoint==slim {
+      @media only screen and (max-width: 20em) {
+          // 600px
+          @content;
+      }
+  }
+
+  @if $breakpoint==phone {
+      @media only screen and (max-width: 37.5em) {
+          // 600px
+          @content;
+      }
+  }
+
+  @if $breakpoint==tab-port {
+      @media only screen and (max-width: 56.25em) {
+          //900px
+          @content;
+      }
+  }
+
+  @if $breakpoint==tab-land {
+      @media only screen and (max-width: 75em) {
+          //1200px
+          @content;
+      }
+  }
+
+  @if $breakpoint==big-desktop {
+      @media only screen and (min-width: 112.5em) {
+          //1800px
+          @content;
+      }
+  }
+}
+
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  @include respond (tab-land) {
+    font-size: 56.25%; // 1rem = 9px
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%; // 1rem = 8px
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%; // 1rem = 12px
+  }
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  box-sizing: border-box;
+  background-color: var(--background);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--background);
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #233554;
+  border-radius: 100px;
+}
