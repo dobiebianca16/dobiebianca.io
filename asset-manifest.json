@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dobiebianca.io/static/css/main.c6bb5c0b.css",
-    "main.js": "/dobiebianca.io/static/js/main.ad951c77.js",
+    "main.js": "/dobiebianca.io/static/js/main.d36959ce.js",
     "static/js/787.67b99310.chunk.js": "/dobiebianca.io/static/js/787.67b99310.chunk.js",
     "static/media/profil.JPG": "/dobiebianca.io/static/media/profil.d896435f2217853d6c23.JPG",
     "static/media/gericht.png": "/dobiebianca.io/static/media/gericht.42e1fdc39a7d7e1c81f9.png",
@@ -12,11 +12,11 @@
     "static/media/logo-BB.png": "/dobiebianca.io/static/media/logo-BB.09b7db01c8bc163caa01.png",
     "index.html": "/dobiebianca.io/index.html",
     "main.c6bb5c0b.css.map": "/dobiebianca.io/static/css/main.c6bb5c0b.css.map",
-    "main.ad951c77.js.map": "/dobiebianca.io/static/js/main.ad951c77.js.map",
+    "main.d36959ce.js.map": "/dobiebianca.io/static/js/main.d36959ce.js.map",
     "787.67b99310.chunk.js.map": "/dobiebianca.io/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6bb5c0b.css",
-    "static/js/main.ad951c77.js"
+    "static/js/main.d36959ce.js"
   ]
 }
