@@ -19,7 +19,7 @@ const Navbar = () => {
         
                 <ul className="navbar__list" >
                     <li className="navbar__items" >
-                        <a href="/#about"  className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">01.</span>.home()</a>
+                        <a href="/"  className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">01.</span>.home()</a>
                     </li>
                     <li className="navbar__items">
                         <a href="/skills"  className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">02.</span>.skills()</a>

@@ -12,11 +12,10 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="dobiebianca.io/skills" element={<About />} />
-          <Route path="dobiebianca.io/work" element={<Work />} />
-
-          <Route path="dobiebianca.io/contact" element={<Contact />} />
+          <Route path="/skills" element={<About />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} />
+           <Route index element={<Home />} />
         </Route>
       </Routes>
     </>
