@@ -31,7 +31,7 @@ const Navbar = () => {
                         <Link to="/contact"  className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">04.</span>.contact()</Link>
                     </li>
                 </ul>
-                <a href="https://drive.google.com/file/d/1vMm1-Yvz6EGgJpVafqstB5ix-K1xVGW2/view?usp=sharing" target="_blank" rel='noreferrer' className="navbar__button">Resume</a>
+                <a href="https://drive.google.com/file/d/1NRRSwbxi9thqEvFqrcdqXyzsfgHP48US/view?usp=sharing" target="_blank" rel='noreferrer' className="navbar__button">Resume</a>
                
             </div>
        
