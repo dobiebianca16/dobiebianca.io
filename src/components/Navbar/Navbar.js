@@ -19,16 +19,16 @@ const Navbar = () => {
         
                 <ul className="navbar__list" >
                     <li className="navbar__items" >
-                        <a href="/"  className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">01.</span>.home()</a>
+                        <Link to="/"  className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">01.</span>.home()</Link>
                     </li>
                     <li className="navbar__items">
-                        <a href="/skills"  className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">02.</span>.skills()</a>
+                        <Link to="/skills"  className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">02.</span>.skills()</Link>
                     </li>
                     <li className="navbar__items">
-                        <a href="/work" className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">03.</span>.work()</a>
+                        <Link to="/work" className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">03.</span>.work()</Link>
                     </li>
                     <li className="navbar__items">
-                        <a href="/contact"  className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">04.</span>.contact()</a>
+                        <Link to="/contact"  className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">04.</span>.contact()</Link>
                     </li>
                 </ul>
                 <a href="https://drive.google.com/file/d/1vMm1-Yvz6EGgJpVafqstB5ix-K1xVGW2/view?usp=sharing" target="_blank" rel='noreferrer' className="navbar__button">Resume</a>
