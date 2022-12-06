@@ -49,8 +49,12 @@ const Work = () => {
            </div>
            <div className='footer'>
             <p className='tools'>React</p>
-            <FontAwesomeIcon icon={faGithub} className="icons" size="2x"/>
-            <FontAwesomeIcon icon={faLink} className="icons" size="2x"/>
+            <a href="https://github.com/dobiebianca16/gpt3"target="_blank">
+            <FontAwesomeIcon icon={faGithub} className="icons" size="3x"/>
+            </a>
+            <a href="https://dobiebianca16.github.io/gpt3/"target="_blank">
+            <FontAwesomeIcon icon={faLink} className="icons" size="3x"/>
+            </a>
         </div></div> 
         </div>
        </div>
@@ -69,8 +73,13 @@ const Work = () => {
            </div>
            <div className='footer'>
             <p className='tools'>React</p>
-            <FontAwesomeIcon icon={faGithub} className="icons" size="2x"/>
-            <FontAwesomeIcon icon={faLink} className="icons" size="2x"/>
+            <a href="https://github.com/dobiebianca16/gericht"target="_blank">
+            <FontAwesomeIcon icon={faGithub} className="icons" size="3x"/>
+            </a>
+            
+            <a href="https://dobiebianca16.github.io/gericht/"target="_blank">
+            <FontAwesomeIcon icon={faLink} className="icons" size="3x"/>
+            </a>
         </div></div> 
         </div>
        </div>
@@ -90,14 +99,18 @@ const Work = () => {
            </div>
            <div className='footer'>
             <p className='tools'>HTML CSS BootStrap</p>
-            <FontAwesomeIcon icon={faGithub} className="icons" size="2x"/>
-            <FontAwesomeIcon icon={faLink} className="icons" size="2x"/>
+            <a href="https://github.com/dobiebianca16/pizza-app"target="_blank">
+            <FontAwesomeIcon icon={faGithub} className="icons" size="3x"/>
+            </a>
+            <a href="https://dobiebianca16.github.io/pizza-app/"target="_blank">
+            <FontAwesomeIcon icon={faLink} className="icons" size="3x"/>
+            </a>
        </div> </div> 
         </div>
        </div>
 
         {/* Food Ordering App */}
-      <div className='work-component work-container-laptop'>
+      {/* <div className='work-component work-container-laptop'>
          <img src={PizzaApp} alt="bg"/>
          
          <div className='work-text-component'>
@@ -114,7 +127,7 @@ const Work = () => {
             <FontAwesomeIcon icon={faLink} className="icons" size="2x"/>
       </div>  </div> 
         </div>
-       </div>
+       </div> */}
 
 
       </div>
