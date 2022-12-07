@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6a121ed9.css",
-    "main.js": "/portfolio/static/js/main.4350fea6.js",
+    "main.js": "/portfolio/static/js/main.fbe51acb.js",
     "static/js/787.67b99310.chunk.js": "/portfolio/static/js/787.67b99310.chunk.js",
     "static/media/profil.JPG": "/portfolio/static/media/profil.d896435f2217853d6c23.JPG",
+    "static/media/metaversus.png": "/portfolio/static/media/metaversus.529e5d7596b183c7924f.png",
     "static/media/gericht.png": "/portfolio/static/media/gericht.42e1fdc39a7d7e1c81f9.png",
     "static/media/gpt3.png": "/portfolio/static/media/gpt3.c36fe6fd43794941ae24.png",
     "static/media/pizza-app.png": "/portfolio/static/media/pizza-app.54b4f747122b4d2a4e0f.png",
@@ -12,11 +13,11 @@
     "static/media/logo-BB.png": "/portfolio/static/media/logo-BB.09b7db01c8bc163caa01.png",
     "index.html": "/portfolio/index.html",
     "main.6a121ed9.css.map": "/portfolio/static/css/main.6a121ed9.css.map",
-    "main.4350fea6.js.map": "/portfolio/static/js/main.4350fea6.js.map",
+    "main.fbe51acb.js.map": "/portfolio/static/js/main.fbe51acb.js.map",
     "787.67b99310.chunk.js.map": "/portfolio/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a121ed9.css",
-    "static/js/main.4350fea6.js"
+    "static/js/main.fbe51acb.js"
   ]
 }
