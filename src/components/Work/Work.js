@@ -9,6 +9,7 @@ import { faLink } from '@fortawesome/free-solid-svg-icons'
 import PizzaApp from '../../assets/images/pizza-app.png'
 import Gericht from '../../assets/images/gericht.png'
 import GPT3 from '../../assets/images/gpt3.png'
+import Metaversus from '../../assets/images/metaversus.png'
 
 const Work = () => {
 
@@ -84,6 +85,31 @@ const Work = () => {
         </div>
        </div>
       
+       {/* Metaversus */}
+       <div className='work-component work-container-laptop'>
+         <img src={Metaversus} alt="bg"/>
+         
+         <div className='work-text-component'>
+         <div className='img-overlay'>
+           <p className='featured'>Featured Project</p>
+           <h2>Metaversus</h2>
+           <div className='work-description'>
+             <p>React application with amazing animation</p>
+            
+           </div>
+           <div className='footer'>
+            <p className='tools'>React | Framer Motion | Tailwind CSS</p>
+            <a href="https://github.com/dobiebianca16/metaversus"target="_blank">
+            <FontAwesomeIcon icon={faGithub} className="icons" size="3x"/>
+            </a>
+            <a href="https://dobiebianca16.github.io/pizza-app/"target="_blank">
+            <FontAwesomeIcon icon={faLink} className="icons" size="3x"/>
+            </a>
+       </div> </div> 
+        </div>
+       </div>
+
+
 
       {/* Food Ordering App */}
       <div className='work-component work-container-laptop'>
@@ -109,25 +135,7 @@ const Work = () => {
         </div>
        </div>
 
-        {/* Food Ordering App */}
-      {/* <div className='work-component work-container-laptop'>
-         <img src={PizzaApp} alt="bg"/>
-         
-         <div className='work-text-component'>
-         <div className='img-overlay'>
-           <p className='featured'>Featured Project</p>
-           <h2>Food Ordering App</h2>
-           <div className='work-description'>
-             <p>Simple presentation website for a Food Ordering mobile application</p>
-            
-           </div>
-           <div className='footer'>
-            <p className='tools'>HTML CSS BootStrap</p>
-            <FontAwesomeIcon icon={faGithub} className="icons" size="2x"/>
-            <FontAwesomeIcon icon={faLink} className="icons" size="2x"/>
-      </div>  </div> 
-        </div>
-       </div> */}
+       
 
 
       </div>
