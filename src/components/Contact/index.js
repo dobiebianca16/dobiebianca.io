@@ -48,9 +48,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            I am looking for a job as a Frontend developer or anything related to UI/UX. I'm a fast learner with great team skills. You can contact me via my email, phone or on my LinkedIn account attached down below.
           </p>
           <div className="contact-form">
             {/* <form ref={form} onSubmit={sendEmail}>
